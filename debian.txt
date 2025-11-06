@@ -1,0 +1,5 @@
+libffi-dev
+libfuzzy2
+libfuzzy-dev
+libmagic-dev
+libtool

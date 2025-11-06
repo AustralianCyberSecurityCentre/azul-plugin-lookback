@@ -1,0 +1,9 @@
+{
+  "generic_pe": [
+    "This program cannot be run in DOS mode.",
+    "<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\"",
+    "DeleteCriticalSection",
+    "SetUnhandledExceptionFilter",
+    "InitializeCriticalSectionAndSpinCount"
+  ]
+}
