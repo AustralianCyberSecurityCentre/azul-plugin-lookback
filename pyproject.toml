@@ -25,7 +25,8 @@ classifiers=[
 ]
 dependencies = [
     "azul-runner>=9.0.38",
-    "ssdeep>=3.4",
+    # pinned to avoid issues installing 3.4, which fails on debian.
+    "ssdeep==3.3",
 ]
 
 [project.scripts]
