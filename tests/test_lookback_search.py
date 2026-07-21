@@ -36,8 +36,7 @@ class TestLookbackSearch(test_template.TestPlugin):
                 state=State(State.Label.COMPLETED),
                 events=[
                     Event(
-                        entity_type="binary",
-                        entity_id="9c0e4e7a226c6ef95eb399ba46cb086a751a0eb56cb93b2608fb0f7fcac1c840",
+                        sha256="9c0e4e7a226c6ef95eb399ba46cb086a751a0eb56cb93b2608fb0f7fcac1c840",
                         features={
                             "lookback_match_data": [
                                 FV(

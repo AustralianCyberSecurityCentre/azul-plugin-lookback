@@ -58,8 +58,7 @@ class TestLookbackHash(test_template.TestPlugin):
                 state=State(State.Label.COMPLETED),
                 events=[
                     Event(
-                        entity_type="binary",
-                        entity_id="575a7ba2bb1ccb3210ab374a2c464a3d5ccb396a9aeff1cdfb9ec7487429cff3",
+                        sha256="575a7ba2bb1ccb3210ab374a2c464a3d5ccb396a9aeff1cdfb9ec7487429cff3",
                         features={
                             "lookback_hash": [FV("f770bd1959d397e68c89e02b9ccbf1de41831756226d6bceb4151c971e9ac6e0")],
                             "lookback_ssdeep": [FV("3:+jWlmx//PllMl/D8y1:Oe3")],
@@ -88,8 +87,7 @@ class TestLookbackHash(test_template.TestPlugin):
                 state=State(State.Label.COMPLETED),
                 events=[
                     Event(
-                        entity_type="binary",
-                        entity_id="c29900042f887f63ad47c57004425a95f1fe0289c0da0abaeadd7968155139fe",
+                        sha256="c29900042f887f63ad47c57004425a95f1fe0289c0da0abaeadd7968155139fe",
                         features={
                             "lookback_hash": [FV("5c08ff73ae3b78462b061eef810e6b4ff90d7ff2cb7a2799b82c413107ae7b74")],
                             "lookback_ssdeep": [FV("3:wlpli9hlqrzc3tt:QptnS")],
@@ -113,8 +111,7 @@ class TestLookbackHash(test_template.TestPlugin):
                 state=State(State.Label.COMPLETED),
                 events=[
                     Event(
-                        entity_type="binary",
-                        entity_id="575a7ba2bb1ccb3210ab374a2c464a3d5ccb396a9aeff1cdfb9ec7487429cff3",
+                        sha256="575a7ba2bb1ccb3210ab374a2c464a3d5ccb396a9aeff1cdfb9ec7487429cff3",
                         features={
                             "lookback_hash": [FV("f770bd1959d397e68c89e02b9ccbf1de41831756226d6bceb4151c971e9ac6e0")],
                             "lookback_ssdeep": [FV("3:+jWlmx//PllMl/D8y1:Oe3")],
@@ -173,8 +170,7 @@ class TestLookbackHash(test_template.TestPlugin):
                 state=State(State.Label.COMPLETED),
                 events=[
                     Event(
-                        entity_type="binary",
-                        entity_id="295bf4e8b52373490a718d8b78d555ffb96ccf881ccde292a02d491c8b7ea3a5",
+                        sha256="295bf4e8b52373490a718d8b78d555ffb96ccf881ccde292a02d491c8b7ea3a5",
                         features={
                             "lookback_hash": [FV("c6a3ca5a89d890ae1def2762f1eebc558ca902a27f7d9d8117027418acb67ce2")],
                             "lookback_ssdeep": [FV("3:n4TZslchMgpj1KWoEUR7AuUxLFiQQicspj1e1n:ngZ9hMYO1R7AuU7lt41")],
@@ -192,8 +188,7 @@ class TestLookbackHash(test_template.TestPlugin):
                 state=State(State.Label.COMPLETED),
                 events=[
                     Event(
-                        entity_type="binary",
-                        entity_id="1fa187276ceb1675e37006917b81067aba4e7f002cdcb6b28e796682652f7d4c",
+                        sha256="1fa187276ceb1675e37006917b81067aba4e7f002cdcb6b28e796682652f7d4c",
                         features={
                             "lookback_hash": [FV("0c0355be82a89269352b3070d89e77df2375b7ed2d458b5b910a221135ce9c3d")],
                             "lookback_ssdeep": [
