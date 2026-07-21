@@ -6,6 +6,7 @@ from azul_runner import (
     FV,
     BinaryPlugin,
     Feature,
+    FeatureType,
     Job,
     add_settings,
     cmdline_run,
@@ -30,11 +31,11 @@ class AzulPluginLookbackSearch(BinaryPlugin):
     # Feature both the plaintext patterns detected, and the obfuscated
     # data which matched on the pattern.
     FEATURES = [
-        Feature("lookback_pattern", "Plaintext pattern detected underneath obfuscation", type=bytes),
-        Feature("lookback_match_data", "Obfuscated data which matched on the pattern", type=bytes),
+        Feature("lookback_pattern", "Plaintext pattern detected underneath obfuscation", type=FeatureType.Binary),
+        Feature("lookback_match_data", "Obfuscated data which matched on the pattern", type=FeatureType.Binary),
     ]
 
-    def __init__(self, config: settings.Settings | dict = None) -> None:
+    def __init__(self, config: settings.Settings | dict | None = None) -> None:
         """Preload config."""
         super().__init__(config)
         # Load in patterns the plugin is configured to search for.
